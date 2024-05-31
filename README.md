@@ -2,9 +2,14 @@
 
 Create Singleton classes simply by decorating them.
 
+The package is
+1. complete. it's tiny, but does exactly what it says.
+2. free from trickery. No metaclasses, inheritance or hidden modifications, just a simple decorator for the constructor call.
+3. easily modifiable. Does the package not fulfil all your needs anymore? Are you on an incomplatible python version? Just copy the file over and adapt it yourself, it's not even twenty LLoC!
+
 
 ```python
-from singleton import Singleton
+from dead_simple_singleton import Singleton
 
 
 @Singleton
